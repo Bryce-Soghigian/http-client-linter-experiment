@@ -14,6 +14,8 @@ import (
 	"time"
 )
 
+// Idea behind linter, it kind of works?
+
 var httpConfig = &http.Client{
 	Transport: &http.Transport{
 		Proxy: http.ProxyFromEnvironment,
